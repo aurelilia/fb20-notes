@@ -1,4 +1,4 @@
-# Digitaltechnik - Übung 1
+# Übung 1
 
 ### 1.1 Informationsmengen
 #### 1.1.1
