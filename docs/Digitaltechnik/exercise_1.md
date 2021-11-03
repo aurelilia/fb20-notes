@@ -14,6 +14,7 @@ a. 17 Bits, da $f(16) < 65537 < f(17)$
 b. 2 Bytes, da $f(2*8) = 65536$  
 c. Unendlich, da es unendlich rationale Zahlen zwischen $[0, 5]$ gibt.
 
+
 ## 1.2
 ### 1.2.1
 Zeit volle Umdrehung:  
