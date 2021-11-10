@@ -85,6 +85,12 @@ Annäherung | `\approx` | $\approx$
 Summe | `\sum` | $\sum$
 Komposition | `\circ` | $\circ$
 
+### Arithmetik
+Name | Schreibweise | Rendered
+-|-|-
+Floor | `\lfloor \rfloor` | $\lfloor \rfloor$
+Ceiling | `\lceil \rceil` | $\lceil \rceil$
+
 ### Konstante
 Name | Schreibweise | Rendered
 -|-|-
