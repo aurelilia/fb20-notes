@@ -82,6 +82,7 @@ Name | Schreibweise | Rendered
 Multiplikation | `\cdot` | $\cdot$
 Annäherung | `\approx` | $\approx$
 Äquivalenzklasse / Relation | `\sim` | $\sim$
+Isomorphismus | `\simeq` | $\simeq$
 Summe | `\sum` | $\sum$
 Komposition | `\circ` | $\circ$
 
