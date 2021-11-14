@@ -25,7 +25,7 @@ $f: A \to B: x \mapsto x^2$
   "Zu jedem $y$ in der Zielmenge gibt es mindestens 1 $x$ im Definitionsbereich"
 
 - Injektivität: $\forall x,y \in A: f(x) = f(y)$; $x = y$  
-  "Zu jedem $y$ und $x$ im Definitionsbereich steht nur ein $x$ zu einem $y$."
+  "Zu jedem $y$ und $x$ im Definitionsbereich steht nur ein $x$ zu einem $y$."  
   $\implies$ "Jedes $y$ hat höchstens 1 $x$"
 
 - Bijektivität: surjektiv und injektiv.
@@ -34,16 +34,16 @@ $f: A \to B: x \mapsto x^2$
 
 
 ## Beispiele
-$f = \{(1,3), (2,3), (3,2), (4,1) \}$
-- nicht injektiv: 1 & 2 gehen zu 3
-- surjektiv: Alle Werte in $B$ getroffen  
+$f = \{(1,3), (2,3), (3,2), (4,1) \}$  
+- nicht injektiv: 1 & 2 gehen zu 3  
+- surjektiv: Alle Werte in $B$ getroffen   
 $\implies$ nicht bijektiv
 ![](./functions/f.png)
 
 <br>
 
-$g = \{(1,1), (2,3), (3,5) \}$
-- injektiv: Jedes $y$ hat nur *einen* $x$
+$g = \{(1,1), (2,3), (3,5) \}$  
+- injektiv: Jedes $y$ hat nur *einen* $x$  
 - surjektiv: Alle Werte in $B$ getroffen  
 $\implies$ bijektiv
 ![](./functions/g.png)
