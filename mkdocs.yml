@@ -12,3 +12,4 @@ extra_javascript:
   - _js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://shynet.angm.xyz/ingress/5bc2faad-b177-4a2c-9efb-f7a08c291dec/script.js
