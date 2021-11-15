@@ -32,7 +32,8 @@ Hoch / Potenz / Superset | `^` | `2^x + x^{x*x}` | $2^x + x^{x*x}$
 Subset | `_` | `2_{10} = 10_2` | $2_{10} = 10_2$
 Bruch / Fraction | `\frac` | `\frac{25}{n}` | $\frac{25}{n}$
 Limits | `\limits` | `\bigcup\limits_{n}` | $\bigcup\limits_{n}$
-Zahlenmengen / Bold | `\mathbb` | `\mathbb{R}` | $\mathbb{R}$
+Zahlenmengen / Bold | `\mathbb` | `\mathbb{B}` | $\mathbb{B}$
+Sätze / Calli | `\mathcal` | `\mathcal{R}` | $\mathcal{R}$
 Wurzel | `\sqrt` | `\sqrt{25}` | $\sqrt{25}$
 Overline / Not | `\overline` | `\overline{A}` | $\overline{A}$
 Not | `\not` | `\not=` | $\not=$
@@ -49,6 +50,7 @@ L-Pfeil | `\leftarrow` | $\leftarrow$
 Maps to / Projektion | `\mapsto` | $\mapsto$
 Impliziert | `\implies` | $\implies$
 Logik-Equivalenz | `\iff` | $\iff$
+Logik-Equivalenz | `\leftrightarrow` | $\leftrightarrow$
 
 ### Mengen
 Name | Schreibweise | Rendered
