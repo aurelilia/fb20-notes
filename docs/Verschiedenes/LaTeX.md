@@ -8,16 +8,31 @@
 
 
 ## Formatierung
+### Spacing u.ä.
+- `\vspace{0.5\baselineskip}`: Horizontales Spacing. Parameter `0.5` veränderbar (größer -> mehr Spacing)
+- `\noindent`: Nicht die neu anfangende Zeile einrücken (oft nach `vspace` or neuem Paragraph sinnvoll)
+- `\\`: Neue bzw. nächste Zeile
+
 ### Block-Formatting
 Mit `\begin{type}`, `\end{type}` geschrieben.
 
 **center**: Zentriert den enthaltenen Text  
 **tabular**: Tabelle. Format [kompliziert](https://www.overleaf.com/learn/latex/Tables)
 
-### Spacing u.ä.
-- `\vspace{0.5\baselineskip}`: Horizontales Spacing. Parameter `0.5` veränderbar (größer -> mehr Spacing)
-- `\noindent`: Nicht die neu anfangende Zeile einrücken (oft nach `vspace` or neuem Paragraph sinnvoll)
-- `\\`: Neue bzw. nächste Zeile
+**cases**: Mathematik-Cases. Beispiel:  
+```
+$f: 
+\begin{cases}
+(\mathbb{Z},+) &\to (\mathbb{Z},+) \\
+k &\mapsto 4k
+\end{cases}$
+```
+zu
+$f: 
+\begin{cases}
+(\mathbb{Z},+) &\to (\mathbb{Z},+) \\
+k &\mapsto 4k
+\end{cases}$
 
 
 ## Mathematik
@@ -37,6 +52,8 @@ Sätze / Calli | `\mathcal` | `\mathcal{R}` | $\mathcal{R}$
 Wurzel | `\sqrt` | `\sqrt{25}` | $\sqrt{25}$
 Overline / Not | `\overline` | `\overline{A}` | $\overline{A}$
 Not | `\not` | `\not=` | $\not=$
+Tilde | `\tilde` | `\tilde{non}` | $\tilde{non}$
+Tilde (Wide) | `\widetilde` | `\widetilde{non}` | $\widetilde{non}$
 
 
 ## Symbole (Mathematik)
