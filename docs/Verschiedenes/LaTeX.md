@@ -1,6 +1,8 @@
 # LaTeX-Cheatsheet
 **Template für allgemeine Dokumente unten**
 
+[Mathematik-Symbolerkennungstool](https://detexify.kirelabs.org/classify.html)
+
 
 ## Struktur
 - Neue Sections mit `\section{My Section}`
@@ -54,6 +56,7 @@ Overline / Not | `\overline` | `\overline{A}` | $\overline{A}$
 Not | `\not` | `\not=` | $\not=$
 Tilde | `\tilde` | `\tilde{non}` | $\tilde{non}$
 Tilde (Wide) | `\widetilde` | `\widetilde{non}` | $\widetilde{non}$
+Koord.-Vektor | `\vec` | `\vec{v}` | $\vec{v}$
 
 
 ## Symbole (Mathematik)
