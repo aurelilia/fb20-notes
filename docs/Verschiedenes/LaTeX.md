@@ -107,6 +107,7 @@ Annäherung | `\approx` | $\approx$
 Isomorphismus | `\simeq` | $\simeq$
 Summe | `\sum` | $\sum$
 Komposition | `\circ` | $\circ$
+Orthogonal | `\bot` | $\bot$
 
 ### Arithmetik
 Name | Schreibweise | Rendered
