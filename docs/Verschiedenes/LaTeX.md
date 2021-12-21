@@ -57,6 +57,7 @@ Not | `\not` | `\not=` | $\not=$
 Tilde | `\tilde` | `\tilde{non}` | $\tilde{non}$
 Tilde (Wide) | `\widetilde` | `\widetilde{non}` | $\widetilde{non}$
 Koord.-Vektor | `\vec` | `\vec{v}` | $\vec{v}$
+Hut | `\hat` | `\hat{v}` | $\hat{v}$
 
 
 ## Symbole (Mathematik)
