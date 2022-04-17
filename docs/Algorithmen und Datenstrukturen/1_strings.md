@@ -48,7 +48,8 @@ des Zwischenzustands $I$ ist zu Ende irrelevant.
 
 ### Beispiel
 Lookup-Tabelle:
-  | a | g | i | n
+
+State\Letter | a | g | i | n
 --|---|---|---|---
 0 | 0 | 1 | 0 | 0
 1 | 2 | 1 | 0 | 0
