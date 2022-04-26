@@ -5,10 +5,6 @@ Ich übernehme keine Haftung für die Richtigkeit dieser Notizen.
 
 **Vor dem Lesen der Notizen bitte immer vorhandene Warnungen (mit "Achtung" unter der Überschrift) beachten!**
 
-**Viele der Übungen sind nicht als Musterlösungen gedacht. Sie können Fehler enthalten.**
-
-*Die Notizen der ersten Woche waren noch mit Unicode-Mathematiksymbolen und sind deshalb teils schlecht geschrieben. Die ab der zweiten Woche nutzen MathJax.*
-
 Die git-Repo dieser Notizen ist [hier zu finden](https://git.angm.xyz/ellie/fb20-notes).
 
 
@@ -19,7 +15,7 @@ Die git-Repo dieser Notizen ist [hier zu finden](https://git.angm.xyz/ellie/fb20
 - [Automaten, formale Sprachen und Entscheidbarkeit](./AfSE/1_22.10.2021.md) - Bestanden
 - [Digitaltechnik](./Digitaltechnik/1_20.10.2021.md) - Bestanden
 
-### Semester 2 - SoSe 2022 - Current
+### Semester 2 - SoSe 2022
 - [Algorithmen und Datenstrukturen](./Algorithmen%20und%20Datenstrukturen/0_asymptotic_complexity.md)
 - [Mathematik 2 für Informatik](./Mathematik%202/5.%20Analysis/5.5_reihen.md)
 - [Aussagen- und Prädikatenlogik](./Aussagen-%20und%20Prädikatenlogik/1_11.04.2022.md)
