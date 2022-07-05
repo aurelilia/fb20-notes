@@ -1,5 +1,4 @@
 # Sortieralgorithmen
-
 Algorithmen, die eine endliche *Sequenz* von Elementen eines beliebigen Datentypes in aufsteigender Reihenfolge,
 angegeben durch eine totale Ordnung (Vergleichsoperation), sortiert (= eine Permutation der Sequenz erzeugt).
 
