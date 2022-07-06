@@ -1,0 +1,1 @@
+# Algorithmus von Prim
