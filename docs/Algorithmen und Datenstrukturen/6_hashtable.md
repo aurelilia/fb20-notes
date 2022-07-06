@@ -60,4 +60,4 @@ $(hash + i^2) \space \text{mod} \space n$.
 Problem: Nicht alle Indices werden abgedeckt.
 
 ### Double Hashing
-Kombination aus 2 Hashfunktionen: $hash_1 + i \dot hash_2$
+Kombination aus 2 Hashfunktionen: $hash_1 + i \cdot hash_2$
