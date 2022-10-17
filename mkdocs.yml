@@ -1,6 +1,21 @@
 site_name: TUD D120 Notizen
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: purple
+      accent: orange
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.instant
 
