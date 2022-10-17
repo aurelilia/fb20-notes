@@ -1,8 +1,11 @@
+---
+hide:
+  - footer
+---
+
 # Meine Notizen für Infomatik 2021 an der TU Darmstadt
 Diese Website enthält meine Notizen während dem Studium Informatik (FB20) an der TU Darmstadt.  
 Ich übernehme keine Haftung für die Richtigkeit dieser Notizen.
-
-Die git-Repo dieser Notizen ist [hier zu finden](https://git.angm.xyz/ellie/fb20-notes).
 
 
 ## Module

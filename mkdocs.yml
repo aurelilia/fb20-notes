@@ -24,6 +24,14 @@ theme:
   features:
     - navigation.instant
 
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/anellie
+    - icon: fontawesome/solid/globe 
+      link: https://elia.garden
+copyright: 2021 - 2022 by Ellie Leela
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
