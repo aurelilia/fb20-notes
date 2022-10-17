@@ -1,4 +1,9 @@
 site_name: TUD D120 Notizen
+
+repo_url: https://github.com/anellie/fb20-notes
+repo_name: "anellie/fb20-notes"
+edit_uri: ""
+
 theme:
   name: material
   palette:
