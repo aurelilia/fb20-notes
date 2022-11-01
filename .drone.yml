@@ -1,0 +1,31 @@
+kind: pipeline
+name: default
+
+steps:
+- name: build
+  image: squidfunk/mkdocs-material
+  environment:
+    SSH_KEY:
+      from_secret: SSH_KEY
+    SSH_KNOWN_HOSTS:
+      from_secret: SSH_KNOWN_HOSTS
+    SSH_PATH:
+      from_secret: SSH_PATH
+  commands:
+    - eval $(ssh-agent -s)
+    - echo "$SSH_KEY" | ssh-add -
+    - mkdir ~/.ssh/
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+
+    - mkdocs build
+    - scp -r site/* $SSH_PATH
+
+trigger:
+  branch:
+    - main
+  event:
+    include:
+      - push
+      - cron
+      - custom
