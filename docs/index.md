@@ -23,6 +23,6 @@ Ich übernehme keine Haftung für die Richtigkeit dieser Notizen.
 ### Semester 3 - WiSe 2022
 - [Mathematik 1 (2. Versuch)](./2022%20-%20WiSe/Mathematik%201/1.%20Grundbegriffe/1.1_aussagen.md) 
 - [Einführung in den Compilerbau](./2022%20-%20WiSe/Einf%C3%BChrung%20in%20den%20Compilerbau/1.md)
-- [Systemnahe und parallele Programmierung](./2022%20-%20WiSe/Systemnahe%20und%20parallele%20Programmierung/1_18.10.2022.md)
+- [Systemnahe und parallele Programmierung](./2022%20-%20WiSe/Systemnahe%20und%20parallele%20Programmierung/1.md)
 - [Architekturen und Entwurf von Rechnersystemen](./2022%20-%20WiSe/Architekturen%20und%20Entwurf%20von%20Rechnersystemen/1_19.10.2022.md)
 - [Computersystemsicherheit](./2022%20-%20WiSe/Computersystemsicherheit/1_21.10.2022.md)
