@@ -1,6 +1,7 @@
 # Klausurvorbereitung
-*Dieses Dokument enthält relativ unorganisierte Notizen zu Dingen, die ich zur Klausur noch wiederholen*
-*muss. Sie ist warscheinlich nicht sehr hilfreich.*
+*Dieses Dokument enthält relativ unorganisierte Notizen zu Dingen,*
+*die ich zur Klausur noch wiederholen muss. Sie ist wahrscheinlich nicht*
+*sehr hilfreich.*
 
 ### Umwandlung binär zu negativer Zweierkomplement-Zahl
 1. Unsigned binär bilden: $53_{10} = 011 0101_2$
@@ -11,9 +12,10 @@
 - Bits für $m$ Wörter mit $n$ Bit-Breite: $m * (n + 1)$
 
 ### CMOS
-- (Mögl. FETs mehr anschauen?)
+- (Möglicherweise FETs mehr anschauen?)
 - Pull-Up (pMOS) für An-Zustände, Pull-Down (nMOS) für Aus-Zustände
-- Transmissionsgatter: Wie "doppelseitiger" CMOS, Input unten invertiert als weiterer Eingang
+- Transmissionsgatter: Wie "doppelseitiger" CMOS, Input unten invertiert als
+  weiterer Eingang
 
 ### KNF & DNF
 - KNF: Zustände mit 0, (A + B)(C + D); Alle Inputs invertiert
@@ -25,12 +27,15 @@
 - Ziel: Bubbles minimieren!
 
 ### Multiplexer und Decoder
-- Multiplexer ("MUX16") als Lookup: Input ist Ausgangswerte, Stellenangabe Inputs
+- Multiplexer ("MUX16") als Lookup: Input ist Ausgangswerte, Stellenangabe
+  Inputs
 - Decoder ("DECODE4") kann erste Stufe von zweistufiger Logik ersetzen
 
 ### Verzögerungen
-$t_{pd}$: maximale Zeit vom Eingang zum Ausgang (Ausbreitungsverzögerung, propagation delay)  
-$t_{cd}$: minimale Zeit vom Eingang zum Ausgang (Kontaminationsverzögerung, contamination delay)  
+$t_{pd}$: maximale Zeit vom Eingang zum Ausgang
+(Ausbreitungsverzögerung, propagation delay)  
+$t_{cd}$: minimale Zeit vom Eingang zum Ausgang
+(Kontaminationsverzögerung, contamination delay)  
 Berechnung bei Schaltung: Alle Änderungswege, davon min/max
 
 ### Störimpulse
@@ -44,7 +49,8 @@ Berechnung bei Schaltung: Alle Änderungswege, davon min/max
 
 ### Latches/FFs
 - Latches übernehmen bei CLK = 1, FF bei steigender Flanke CLK
-- Wenn CLK und Eingang gleichzeitig 1 werden: Nicht durch FF übernommen wegen Delay!
+- Wenn CLK und Eingang gleichzeitig 1 werden: Nicht durch FF übernommen
+  wegen Delay!
 
 ### Taktzeit
 - Max. Taktgeschwindigkeit: 1 / t_pd

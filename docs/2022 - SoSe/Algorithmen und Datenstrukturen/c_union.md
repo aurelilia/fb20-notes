@@ -10,8 +10,9 @@ von Listen ist.
 
 
 ## Finden des Repräsentanten
-Zunächst wird das gegebene Element gesucht. Dieses sollte zusätzlich einen Pointer
-zum Repräsentanten bzw. der Liste haben, sodass die Repräsentante zurückgegeben wird.
+Zunächst wird das gegebene Element gesucht. Dieses sollte zusätzlich einen
+Pointer zum Repräsentanten bzw. der Liste haben, sodass der Repräsentant
+zurückgegeben wird.
 
 ### Asymptotische Komplexität
 Konstant.

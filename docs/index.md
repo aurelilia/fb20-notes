@@ -3,7 +3,7 @@ hide:
   - footer
 ---
 
-# Meine Notizen für Infomatik 2021 an der TU Darmstadt
+# Meine Notizen für Informatik 2021 an der TU Darmstadt
 Diese Website enthält meine Notizen während dem Studium Informatik (FB20) an der TU Darmstadt.  
 Ich übernehme keine Haftung für die Richtigkeit dieser Notizen.
 
@@ -21,7 +21,7 @@ Ich übernehme keine Haftung für die Richtigkeit dieser Notizen.
 - [Rechnerorganisation](./2022%20-%20SoSe/Rechnerorganisation/1_11.04.2022.md) - Bestanden
 
 ### Semester 3 - WiSe 2022
-- [Mathematik 1 (2. Versuch)](./2022%20-%20WiSe/Mathematik%201/1.%20Grundbegriffe/1.1_aussagen.md) 
+- [Mathematik 1 (2. Versuch)](./2022%20-%20WiSe/Mathematik%201/1_grundbegriffe.md) 
 - [Einführung in den Compilerbau](./2022%20-%20WiSe/Einf%C3%BChrung%20in%20den%20Compilerbau/1.md)
 - [Systemnahe und parallele Programmierung](./2022%20-%20WiSe/Systemnahe%20und%20parallele%20Programmierung/1.md)
 - [Architekturen und Entwurf von Rechnersystemen](./2022%20-%20WiSe/Architekturen%20und%20Entwurf%20von%20Rechnersystemen/1_19.10.2022.md)

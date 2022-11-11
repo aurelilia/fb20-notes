@@ -20,13 +20,16 @@ Set wichtig ist. (Equivalent to mathematischen Mengen)
 
 ## Hashing
 - Hashing: Erzeugen eines Integers aus einem beliebigen Wert
-- *Hashfunktion*: Funktion mit Signatur $f: V \to \mathbb{N}$, erzeugt Hash eines Werts
-    - Meistens ist diese in eine Integer-Range gebunden, sodass tatsächliche Signatur:
+- *Hashfunktion*: Funktion mit Signatur $f: V \to \mathbb{N}$, erzeugt Hash
+  eines Werts
+    - Meistens ist diese in eine Integer-Range gebunden, sodass tatsächliche
+      Signatur:
     - $f(V, n) = \text{hash}(V) \space \text{mod} \space n$
 
 
 ## Hashtabellen
-Hashtabellen sind eine Implementation von Maps, bestehend aus einem simplen Array.  
+Hashtabellen sind eine Implementation von Maps, bestehend aus einem simplen
+Array.  
 Der Array-Index der Keys ist durch die *Hashfunktion* bestimmt, die
 mit dem Key aufgerufen wird.
 
@@ -47,12 +50,15 @@ mit dem Key aufgerufen wird.
 
 
 ## Nächster Index
-Im Fall einer Kollision gibt es mehrere Strategien, den nächsten Index zu berechnen.  
+Im Fall einer Kollision gibt es mehrere Strategien, den nächsten Index zu
+berechnen.  
 Oft ist dies Teil der Hashfunktion als ein dritter Parameter.
 
 ### Linear Probing
-Es wird einfach der nächste Index versucht, also $(hash + 1) \space \text{mod} \space n$.  
-Problem: Kann oft zu "Clustern" von Werten führen, welches Operationen verlangsamt.
+Es wird einfach der nächste Index versucht, also
+$(hash + 1) \space \text{mod} \space n$.  
+Problem: Kann oft zu "Clustern" von Werten führen, welches Operationen
+verlangsamt.
 
 ### Quadratic Probing
 Linear Probing, jedoch mit quadratischen Schritten.  

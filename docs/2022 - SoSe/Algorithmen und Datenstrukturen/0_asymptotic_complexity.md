@@ -1,1 +1,0 @@
-# Asymptotische Komplexität
