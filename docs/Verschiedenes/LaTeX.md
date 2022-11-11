@@ -11,15 +11,18 @@
 
 ## Formatierung
 ### Spacing u.ä.
-- `\vspace{0.5\baselineskip}`: Horizontales Spacing. Parameter `0.5` veränderbar (größer -> mehr Spacing)
-- `\noindent`: Nicht die neu anfangende Zeile einrücken (oft nach `vspace` or neuem Paragraph sinnvoll)
+- `\vspace{0.5\baselineskip}`: Horizontales Spacing. Parameter
+  `0.5` veränderbar (größer -> mehr Spacing)
+- `\noindent`: Nicht die neu anfangende Zeile einrücken
+  (oft nach `vspace` or neuem Paragraph sinnvoll)
 - `\\`: Neue bzw. nächste Zeile
 
 ### Block-Formatting
 Mit `\begin{type}`, `\end{type}` geschrieben.
 
 **center**: Zentriert den enthaltenen Text  
-**tabular**: Tabelle. Format [kompliziert](https://www.overleaf.com/learn/latex/Tables)
+**tabular**: Tabelle. Format
+[kompliziert](https://www.overleaf.com/learn/latex/Tables)
 
 **cases**: Mathematik-Cases. Beispiel:  
 ```
@@ -41,23 +44,25 @@ k &\mapsto 4k
 Ausdrücke zwischen `$`, `$\mathbb{R}$` = $\mathbb{R}$
 
 ### Funktionen
-Notiz: Bei Parametern können `{}` weggelassen werden, wenn der Parameter nur 1 Zeichen ist (zB `\sqrt 2` okay, `\sqrt 25` muss als `\sqrt{25}` geschrieben werden)
+Notiz: Bei Parametern können `{}` weggelassen werden, wenn der Parameter nur 1
+Zeichen ist (zB `\sqrt 2` okay, `\sqrt 25` muss als `\sqrt{25}`
+geschrieben werden)
 
-| Name                     | Schreibweise | Beispiel             | Beispiel (Rendered)  |
-| ------------------------ | ------------ | -------------------- | -------------------- |
-| Hoch / Potenz / Superset | `^`          | `2^x + x^{x*x}`      | $2^x + x^{x*x}$      |
-| Subset                   | `_`          | `2_{10} = 10_2`      | $2_{10} = 10_2$      |
-| Bruch / Fraction         | `\frac`      | `\frac{25}{n}`       | $\frac{25}{n}$       |
-| Limits                   | `\limits`    | `\bigcup\limits_{n}` | $\bigcup\limits_{n}$ |
-| Zahlenmengen / Bold      | `\mathbb`    | `\mathbb{B}`         | $\mathbb{B}$         |
-| Sätze / Calli            | `\mathcal`   | `\mathcal{R}`        | $\mathcal{R}$        |
-| Wurzel                   | `\sqrt`      | `\sqrt{25}`          | $\sqrt{25}$          |
-| Overline / Not           | `\overline`  | `\overline{A}`       | $\overline{A}$       |
-| Not                      | `\not`       | `\not=`              | $\not=$              |
-| Tilde                    | `\tilde`     | `\tilde{non}`        | $\tilde{non}$        |
-| Tilde (Wide)             | `\widetilde` | `\widetilde{non}`    | $\widetilde{non}$    |
-| Koord.-Vektor            | `\vec`       | `\vec{v}`            | $\vec{v}$            |
-| Hut                      | `\hat`       | `\hat{v}`            | $\hat{v}$            |
+| Name           | Schreibweise | Beispiel             | Beispiel (Rendered)  |
+| -------------- | ------------ | -------------------- | -------------------- |
+| Hoch           | `^`          | `2^x + x^{x*x}`      | $2^x + x^{x*x}$      |
+| Subset         | `_`          | `2_{10} = 10_2`      | $2_{10} = 10_2$      |
+| Bruch          | `\frac`      | `\frac{25}{n}`       | $\frac{25}{n}$       |
+| Limits         | `\limits`    | `\bigcup\limits_{n}` | $\bigcup\limits_{n}$ |
+| Zahlenmengen   | `\mathbb`    | `\mathbb{B}`         | $\mathbb{B}$         |
+| Sätze / Calli  | `\mathcal`   | `\mathcal{R}`        | $\mathcal{R}$        |
+| Wurzel         | `\sqrt`      | `\sqrt{25}`          | $\sqrt{25}$          |
+| Overline / Not | `\overline`  | `\overline{A}`       | $\overline{A}$       |
+| Not            | `\not`       | `\not=`              | $\not=$              |
+| Tilde          | `\tilde`     | `\tilde{non}`        | $\tilde{non}$        |
+| Tilde (Wide)   | `\widetilde` | `\widetilde{non}`    | $\widetilde{non}$    |
+| Koord.-Vektor  | `\vec`       | `\vec{v}`            | $\vec{v}$            |
+| Hut            | `\hat`       | `\hat{v}`            | $\hat{v}$            |
 
 
 ## Symbole (Mathematik)
