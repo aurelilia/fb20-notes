@@ -16,7 +16,7 @@ Ich übernehme keine Haftung für die Richtigkeit dieser Notizen.
 - [Digitaltechnik](./2021%20-%20WiSe/Digitaltechnik/1_20.10.2021.md) - Bestanden
 
 ### Semester 2 - SoSe 2022
-- [Algorithmen und Datenstrukturen](./2022%20-%20SoSe/Algorithmen%20und%20Datenstrukturen/0_asymptotic_complexity.md) - Bestanden
+- [Algorithmen und Datenstrukturen](./2022%20-%20SoSe/Algorithmen%20und%20Datenstrukturen/1_strings.md) - Bestanden
 - [Aussagen- und Prädikatenlogik](./2022%20-%20SoSe/Aussagen-%20und%20Pr%C3%A4dikatenlogik/1_11.04.2022.md) - Bestanden
 - [Rechnerorganisation](./2022%20-%20SoSe/Rechnerorganisation/1_11.04.2022.md) - Bestanden
 
