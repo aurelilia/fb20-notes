@@ -1,1 +1,0 @@
-# 13. Lineare Unabhängigkeit
